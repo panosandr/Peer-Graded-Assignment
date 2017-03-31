@@ -1,7 +1,5 @@
 # Code Book
 
-This code book summarizes the resulting data fields in `tidydata.txt`
-
 ## Activity Labels
  
 * `WALKING` (value `1`): subject was walking during the test
