@@ -2,93 +2,79 @@
 
 ## Activity Labels
  
-* `WALKING` (value `1`)
-* `WALKING_UPSTAIRS` (value `2`)
-* `WALKING_DOWNSTAIRS` (value `3`)
-* `SITTING` (value `4`)
-* `STANDING` (value `5`)
-* `LAYING` (value `6`)
+* `WALKING` (`1`)
+* `WALKING_UPSTAIRS` (`2`)
+* `WALKING_DOWNSTAIRS` (`3`)
+* `SITTING` (`4`)
+* `STANDING` (`5`)
+* `LAYING` (`6`)
 
 ## Measurements
 
-* `tBodyAccMeanX`
-* `tBodyAccMeanY`
-* `tBodyAccMeanZ`
-* `tBodyAccStdX`
-* `tBodyAccStdY`
-* `tBodyAccStdZ`
-* `tGravityAccMeanX`
-* `tGravityAccMeanY`
-* `tGravityAccMeanZ`
-* `tGravityAccStdX`
-* `tGravityAccStdY`
-* `tGravityAccStdZ`
-* `tBodyAccJerkMeanX`
-* `tBodyAccJerkMeanY`
-* `tBodyAccJerkMeanZ`
-* `tBodyAccJerkStdX`
-* `tBodyAccJerkStdY`
-* `tBodyAccJerkStdZ`
-* `tBodyGyroMeanX`
-* `tBodyGyroMeanY`
-* `tBodyGyroMeanZ`
-* `tBodyGyroStdX`
-* `tBodyGyroStdY`
-* `tBodyGyroStdZ`
-* `tBodyGyroJerkMeanX`
-* `tBodyGyroJerkMeanY`
-* `tBodyGyroJerkMeanZ`
-* `tBodyGyroJerkStdX`
-* `tBodyGyroJerkStdY`
-* `tBodyGyroJerkStdZ`
-* `tBodyAccMagMean`
-* `tBodyAccMagStd`
-* `tGravityAccMagMean`
-* `tGravityAccMagStd`
-* `tBodyAccJerkMagMean`
-* `tBodyAccJerkMagStd`
-* `tBodyGyroMagMean`
-* `tBodyGyroMagStd`
-* `tBodyGyroJerkMagMean`
-* `tBodyGyroJerkMagStd`
-* `fBodyAccMeanX`
-* `fBodyAccMeanY`
-* `fBodyAccMeanZ`
-* `fBodyAccStdX`
-* `fBodyAccStdY`
-* `fBodyAccStdZ`
-* `fBodyAccMeanFreqX`
-* `fBodyAccMeanFreqY`
-* `fBodyAccMeanFreqZ`
-* `fBodyAccJerkMeanX`
-* `fBodyAccJerkMeanY`
-* `fBodyAccJerkMeanZ`
-* `fBodyAccJerkStdX`
-* `fBodyAccJerkStdY`
-* `fBodyAccJerkStdZ`
-* `fBodyAccJerkMeanFreqX`
-* `fBodyAccJerkMeanFreqY`
- * `fBodyAccJerkMeanFreqZ`
- * `fBodyGyroMeanX`
- * `fBodyGyroMeanY`
- * `fBodyGyroMeanZ`
- * `fBodyGyroStdX`
- * `fBodyGyroStdY`
- * `fBodyGyroStdZ`
- * `fBodyGyroMeanFreqX`
- * `fBodyGyroMeanFreqY`
- * `fBodyGyroMeanFreqZ`
- * `fBodyAccMagMean`
- * `fBodyAccMagStd`
- * `fBodyAccMagMeanFreq`
- * `fBodyBodyAccJerkMagMean`
- * `fBodyBodyAccJerkMagStd`
- * `fBodyBodyAccJerkMagMeanFreq`
- * `fBodyBodyGyroMagMean`
- * `fBodyBodyGyroMagStd`
- * `fBodyBodyGyroMagMeanFreq`
- * `fBodyBodyGyroJerkMagMean`
- * `fBodyBodyGyroJerkMagStd`
- * `fBodyBodyGyroJerkMagMeanFreq`
- 
+* `timeBodyAccelerometer-mean()-X`
+* `timeBodyAccelerometer-mean()-Y`
+* `timeBodyAccelerometer-mean()-Z`
+* `timeBodyAccelerometer-std()-X`
+* `timeBodyAccelerometer-std()-Y`
+* `timeBodyAccelerometer-std()-Z`
+* `timeGravityAccelerometer-mean()-X`
+* `timeGravityAccelerometer-mean()-Y`
+* `timeGravityAccelerometer-mean()-Z`
+* `timeGravityAccelerometer-std()-X`
+* `timeGravityAccelerometer-std()-Y`
+* `timeGravityAccelerometer-std()-Z`
+* `timeBodyAccelerometerJerk-mean()-X`
+* `timeBodyAccelerometerJerk-mean()-Y`
+* `timeBodyAccelerometerJerk-mean()-Z`
+* `timeBodyAccelerometerJerk-std()-X`
+* `timeBodyAccelerometerJerk-std()-Y`
+* `timeBodyAccelerometerJerk-std()-Z`
+* `timeBodyGyroscope-mean()-X`
+* `timeBodyGyroscope-mean()-Y`
+* `timeBodyGyroscope-mean()-Z`
+* `timeBodyGyroscope-std()-X`
+* `timeBodyGyroscope-std()-Y`
+* `timeBodyGyroscope-std()-Z`
+* `timeBodyGyroscopeJerk-mean()-X`
+* `timeBodyGyroscopeJerk-mean()-Y`
+* `timeBodyGyroscopeJerk-mean()-Z`
+* `timeBodyGyroscopeJerk-std()-X`
+* `timeBodyGyroscopeJerk-std()-Y`
+* `timeBodyGyroscopeJerk-std()-Z`
+* `timeBodyAccelerometerMagnitude-mean()`
+* `timeBodyAccelerometerMagnitude-std()`
+* `timeGravityAccelerometerMagnitude-mean()`
+* `timeGravityAccelerometerMagnitude-std()`
+* `timeBodyAccelerometerJerkMagnitude-mean()`
+* `timeBodyAccelerometerJerkMagnitude-std()`
+* `timeBodyGyroscopeMagnitude-mean()`
+* `timeBodyGyroscopeMagnitude-std()`
+* `timeBodyGyroscopeJerkMagnitude-mean()`
+* `timeBodyGyroscopeJerkMagnitude-std()`
+* `frequencyBodyAccelerometer-mean()-X`
+* `frequencyBodyAccelerometer-mean()-Y`
+* `frequencyBodyAccelerometer-mean()-Z`
+* `frequencyBodyAccelerometer-std()-X`
+* `frequencyBodyAccelerometer-std()-Y`
+* `frequencyBodyAccelerometer-std()-Z`
+* `frequencyBodyAccelerometerJerk-mean()-X`
+* `frequencyBodyAccelerometerJerk-mean()-Y`
+* `frequencyBodyAccelerometerJerk-mean()-Z`
+* `frequencyBodyAccelerometerJerk-std()-X`
+* `frequencyBodyAccelerometerJerk-std()-Y`
+* `frequencyBodyAccelerometerJerk-std()-Z`
+* `frequencyBodyGyroscope-mean()-X`
+* `frequencyBodyGyroscope-mean()-Y`
+* `frequencyBodyGyroscope-mean()-Z`
+* `frequencyBodyGyroscope-std()-X`
+* `frequencyBodyGyroscope-std()-Y`
+* `frequencyBodyGyroscope-std()-Z`
+* `frequencyBodyAccelerometerMagnitude-mean()`
+* `frequencyBodyAccelerometerMagnitude-std()`
+* `frequencyBodyAccelerometerJerkMagnitude-mean()`
+* `frequencyBodyAccelerometerJerkMagnitude-std()`
+* `frequencyBodyGyroscopeMagnitude-mean()`
+* `frequencyBodyGyroscopeMagnitude-std()`
+* `frequencyBodyGyroscopeJerkMagnitude-mean()`
+* `frequencyBodyGyroscopeJerkMagnitude-std()`
 
